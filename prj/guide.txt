@@ -1,0 +1,20 @@
+1.
+Clinet Calls:
+localhost:8082/show/{desired number}
+
+response: generated number at generate project * desired number
+
+2.
+Show project calls:
+localhost:8081/multiple/{desired number from step 1}
+
+response: generated number at generate project * desired number from step 1
+
+3.
+Multiple project calls:
+localhost:8080/generate
+
+response: random generated integer
+
+---------------------------------------------------------------------------
+
